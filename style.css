@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Baloo Paaji 2', cursive;
+    padding: 0;
+}
+/* Navbar */
+.container{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    justify-content: center;
+    display: flex;
+}
+#logo img{
+    width: 200px;
+    height: 110px;
+}
+#navbar ul {
+   display: flex;
+   justify-content: center;
+}
+#navbar ul li {
+    list-style: none;
+    padding: 15px;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+}
+#navbar ul li a:hover{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 15px;
+}
+.container hr{
+    border: 1px solid yellow;
+}
+/* NavBar Ended Here */
+/* Top Section started here */
+.main{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.top-button{
+    border: 3px solid yellow;
+    font-size: 50px;
+    letter-spacing: 0.5rem;
+    padding: 10px 15px;
+    margin-top: 90px;
+}
+.top-button:hover{
+    background-color: yellow;
+    transition: all 1s ease-in-out .3s;
+    color: black;
+}
+.main h1{
+    letter-spacing: 0.5rem;
+    line-height: 5rem;
+}
+.main h3{
+    color: rgb(243, 243, 104);
+}
+.social-icon a{
+    margin: 5px;
+}
+/* Top Page Ended Here */
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.about-header h2{
+    font-size: 34px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+.about-info{
+    width: 50%;
+    height: 130px;
+}
+.about-info h3{
+    font-size: 26px;
+    color: rgb(20, 20, 20);
+    font-weight: bold;
+}
+.about-info p{
+    font-size: 17px;
+    width: 585px;
+    font-style: italic;
+}
+.about-img img{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 150px;
+    border: 2px solid yellow;
+}
+/* <!-- About Us Section Ended Here --> */
+.services{
+    background-color: rgb(14, 13, 13);
+    margin-top: 15px;
+}
+.services h2{
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+    font-size: 34px;
+    text-decoration: underline;
+}
+.services-cont{
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 90px;
+}
+.box h3{
+    font-size: 25px;
+    color: white;
+}
+/* Services Section Ended Here */
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    width: 500px;
+    margin: 5px;
+    padding: 5px;
+}
+form textarea{
+    width: 500px;
+}
+#contform{
+    margin-top: 30px;
+}
+#contform h2{
+    font-size: 34px;
+    text-align: center;
+    text-decoration: underline;
+}
+form button{
+    margin-top: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+}
